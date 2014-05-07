@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+
+/**
+ * @author Madhulika
+ *
+ */
+public class PerfectNumber {
+	public void isPerfectNumber(int num){
+		int sum =0;
+		for(int i =1; i<=num/2;i++){
+			if(num%i ==0)
+				sum += i;
+		}
+		if(sum == num)
+			System.out.println("This is a perfect number");
+		else
+			System.out.println("This is not a perfect number ");
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PerfectNumber pn = new PerfectNumber();
+		pn.isPerfectNumber(7);
+
+	}
+
+}
