@@ -1,22 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program adds first 1000 prime number
  */
 public class Main {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int num =1000;
 		int n =2;
 		int sum =0;
 		List<Integer> primeList = new ArrayList<Integer>();
@@ -33,7 +25,6 @@ public class Main {
 	}
 
 	private static boolean isPrimeNumber(int n) {
-		// TODO Auto-generated method stub
 		boolean isPrime =true;
 		for(int count =2;count<=n/2;count++){
 			if(n%count ==0){

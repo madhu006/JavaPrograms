@@ -1,19 +1,14 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program reverse string
  */
 public class ReversedString {
 
 	String reverse = ""; 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		String str = "Madhulika prasad";
 		
 		ReversedString rs = new ReversedString();

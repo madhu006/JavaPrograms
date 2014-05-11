@@ -1,10 +1,7 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * Find the sum of digits of a number
  */
 public class MyNumberSumRec {
 	
@@ -18,14 +15,9 @@ public class MyNumberSumRec {
 		}
 		return sum;
 	}
-
-	/**
-	 * @param args
-	 */
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int num = 236110;
 		MyNumberSumRec mns = new MyNumberSumRec();
 		int total = mns.findNumberSum(num);

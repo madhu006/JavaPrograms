@@ -1,15 +1,10 @@
-/**
- * 
- */
 
 /**
- * @author rakesh
- *
+ * @author Madhulika
+ * This program implements QuickSort algorithm in iterative 
  */
 
-import java.io.*;
-import java.util.*;
-import java.lang.*;
+import java.util.LinkedList;
  
  
 class IterativeQuickSort {

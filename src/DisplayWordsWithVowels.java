@@ -1,11 +1,10 @@
 import java.util.StringTokenizer;
 
-/**
- * 
- */
 
 /**
- * @author rakesh
+ * @author Madhulika
+ * 
+ * This program parse the sentence and display the words with vowel
  *
  */
 public class DisplayWordsWithVowels {

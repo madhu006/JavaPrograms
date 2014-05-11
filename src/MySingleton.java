@@ -1,10 +1,7 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program implements Singleton pattern
  */
 public class MySingleton {
 	
@@ -25,11 +22,7 @@ public class MySingleton {
 			System.out.println("This is a singleton class");
 		}
 	
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		MySingleton ms = getInstance();
 		

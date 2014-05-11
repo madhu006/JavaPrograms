@@ -7,13 +7,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program get line with maximum words count in file
  */
 public class MaxWordCountInLine {
 	
@@ -48,23 +45,17 @@ public class MaxWordCountInLine {
 				System.out.println("The line is "+ lines.get(0) + " count "+ maxWordCount);
 				
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String fileName = "C:/Temp/input.txt";
 		MaxWordCountInLine mwc = new MaxWordCountInLine();
 		mwc.findMaxCountInLine(fileName);

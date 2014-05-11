@@ -1,12 +1,8 @@
 import java.util.Scanner;
 
 /**
- * 
- */
-
-/**
  * @author Madhulika
- *
+ * This program converts Decimal Number into Binary
  */
 public class DecimalToBinary {
 	
@@ -28,12 +24,7 @@ public class DecimalToBinary {
 		
 	}
 		
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		DecimalToBinary  dtb = new DecimalToBinary();
 	
@@ -45,6 +36,7 @@ public class DecimalToBinary {
 		System.out.println("This is input "+num);	
 		
 		dtb.convertDecimalToBinary(num);
+		ins.close();
 
 	}
 

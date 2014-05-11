@@ -6,7 +6,8 @@ import java.util.Map;
 /**
  * @author Madhulika
  * 
- * This program shows features of HashMap vs HashTable
+ * This program demo HashMap and HashTable 
+ * It shows features of HashMap vs HashTable
  *
  */
 public class HashMapDemo {

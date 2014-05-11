@@ -1,18 +1,11 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * Swap two number without using third number
  */
 public class MySwapTwoNumbers {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int x =5;
 		int y =11;

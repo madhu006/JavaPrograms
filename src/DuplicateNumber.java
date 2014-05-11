@@ -1,13 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * Program to find a duplicate number in the array
+ * The array contains consecutive number except last number 
+ * in array is repeated.
  */
 public class DuplicateNumber {
 	
@@ -23,15 +22,10 @@ public class DuplicateNumber {
 		int sum=0;
 		for(Integer num : n)
 			sum +=num;
-		// TODO Auto-generated method stub
 		return sum;
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		List<Integer> n = new ArrayList<Integer>();
 		for(int i =1;i <15;i++)
 			n.add(i);

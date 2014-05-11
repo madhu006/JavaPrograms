@@ -1,10 +1,7 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program demo multilevel inheritance.
  */
 
 	
@@ -76,15 +73,9 @@
 		
 	}
 
-	/**
-	 * @param args
-	 */
 	public class DemoShipment {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
-		
+			
 		Shipment shipment2 = new Shipment(2,3,4,0.76,1.28);
 		
 		double vol;

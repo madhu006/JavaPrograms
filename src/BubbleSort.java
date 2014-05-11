@@ -1,18 +1,12 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program implements Bubble Sort
  */
 public class BubbleSort {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// array 
 		int[] a = {9,5,1,11,2,7,3,27,15,17,21};
 		
 		BubbleSort bs = new BubbleSort();
@@ -20,7 +14,7 @@ public class BubbleSort {
 	}
 
 	private void impleBubbleSort(int[] a) {
-		// TODO Auto-generated method stub
+	
 		int m = a.length-1;
 		for(int i =0;i<=m;i++){
 			for(int j=0;j<m;j++){
@@ -36,7 +30,7 @@ public class BubbleSort {
 	}
 
 	private void swap(int i, int j,int[] a) {
-		// TODO Auto-generated method stub
+		
 		int temp = a[i];
 		a[i] = a[j];
 		a[j] = temp;

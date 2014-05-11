@@ -1,9 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 
- */
 
 /**
  * @author Madhulika
@@ -31,13 +28,9 @@ public class DuplicateCharacter {
 		}
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		String str = "Madhulikaprasad";
+		String str = "JavaProgrammingWorld";
 		
 		DuplicateCharacter dc = new DuplicateCharacter();
 		dc.findDuplicateChar(str);

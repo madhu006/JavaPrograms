@@ -1,9 +1,7 @@
-/**
- * 
- */
 
 /**
- * @author rakesh
+ * @author Madhulika
+ * This program demo Runtime Polymorphism
  *
  */
 

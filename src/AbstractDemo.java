@@ -1,10 +1,8 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * This program demonstrates abstract class and inherit the 
+ * abstract class
  */
 
 	

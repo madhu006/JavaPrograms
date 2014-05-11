@@ -1,10 +1,7 @@
-/**
- * 
- */
 
 /**
- * @author rakesh
- *
+ * @author Madhulika
+ * Implements Quick Sort in recursively
  */
 
 
@@ -65,7 +62,6 @@ public class QuickSort  {
 	  }
 	  
 	  public static void main(String[] args) {
-			// TODO Auto-generated method stub
 		  QuickSort qs = new QuickSort();
 		  int[] values = {35,23,16,11,44,90,1,2,5};
 		  qs.sort(values);

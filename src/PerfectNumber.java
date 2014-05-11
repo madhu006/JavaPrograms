@@ -1,10 +1,7 @@
-/**
- * 
- */
 
 /**
  * @author Madhulika
- *
+ * Check the number is perfect or not
  */
 public class PerfectNumber {
 	public void isPerfectNumber(int num){
@@ -19,11 +16,7 @@ public class PerfectNumber {
 			System.out.println("This is not a perfect number ");
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		PerfectNumber pn = new PerfectNumber();
 		pn.isPerfectNumber(7);
 
