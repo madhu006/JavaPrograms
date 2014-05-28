@@ -45,6 +45,11 @@ public class RuntimePolymorphism {
 		
 		referenceToMotor = carObject;   // This is Runtime Polymorphism
 		referenceToMotor.callme(); //refers to Car callme		
+	// Try the commented code understand why these assignments cause error
+	//	Motor motorObject = new Bus();
+	//	Bus bus = new Motor();
+	//	busObject = motorObject;
+	//	carObject = new Bus();
 
 	}
 
