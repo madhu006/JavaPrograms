@@ -1,6 +1,21 @@
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 
+ * @author Madhulika
+ *
+ *Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
+*
+*	For example, given
+*	s = "leetcode",
+*	dict = ["leet", "code"].
+*
+*	Return true because "leetcode" can be segmented as "leet code".
+ *
+ */
+
+
 
 public class WordBreak {
 	
@@ -17,6 +32,8 @@ public class WordBreak {
 	                continue;
 	 
 	            for(String a: dict){
+	            	if(a.length() ==s.length())
+	            		continue;
 	                int len = a.length();
 	                int end = i + len;
 	                if(end > s.length())
@@ -25,6 +42,7 @@ public class WordBreak {
 	                if(t[end]) continue;
 	 
 	                if(s.substring(i, end).equals(a)){
+	                	System.out.println(" " +a);
 	                    t[end] = true;
 	                }
 	            }
@@ -41,7 +59,7 @@ public class WordBreak {
 		 dict.add("program");
 		 dict.add("creek");
 		
-		wb.wordBreak1("programcreek",dict);
+		System.out.println(wb.wordBreak1("programcreek",dict));
 
 	}
 
